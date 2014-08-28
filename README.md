@@ -1,10 +1,10 @@
 # Create an 18F-branded microsite by forking this site.
 
 Basic instructions:
-1. Fork this site.
-2. Rename it.
-3. Add specific content, especially to index.html.
-4. Change this README.md!
+* Fork this site.
+* Rename it.
+* Add specific content, especially to index.html.
+* Change this README.md!
 
 This repo  is meant to cloned.  This micro-site template is used to
 automatically create new microsites which can be easily customized.
