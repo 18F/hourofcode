@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 As part of Computer Science Education Week, the “Hour of Code” initiative is helping millions of people of all ages around the world try computer programming for the first time. Even President Obama participated earlier this week.
 
 All are welcome; no experience is required! Just bring a laptop (if you have one).
@@ -9,3 +13,5 @@ Practice writing JavaScript with [this coding game](http://hourofcode.com/code) 
 ## Bonus Round!
 
 Add your name to the site! Start by creating an account on [Github](https://github.com). Then check out the instructions [here](addyourname.html).
+
+{% include coders.html %}
