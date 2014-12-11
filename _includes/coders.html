@@ -5,16 +5,16 @@
   {% assign user = user_hash[1] %}
 
   <li>
-    <div>{{ user.name }}</div>
+    {% assign emoji = user.emoji | replace:'+','--' %}
+    <div>
+      <strong>{{ user.name }}</strong>
+      <i class="em em-{{ emoji }}"></i>
+    </div>
+    <div>
+      <a href="https://github.com/{{ username }}">github.com/{{ username }}</a>
+    </div>
     <div>
       {{ user.office }}, {{ user.agency }}
-    </div>
-    <div>
-      <a href="https://github.com/{{ username }}">@{{ username }}</a>
-    </div>
-    <div>
-      {% assign emoji = user.emoji | replace:'+','--' %}
-      <i class="em em-{{ emoji }}"></i>
     </div>
   </li>
   {% endfor %}
