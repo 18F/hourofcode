@@ -1,0 +1,21 @@
+<h2>Awesome Coders:</h2>
+<ul>
+  {% for user_hash in site.data.users %}
+  {% assign username = user_hash[0] %}
+  {% assign user = user_hash[1] %}
+
+  <li>
+    <div>{{ user.name }}</div>
+    <div>
+      {{ user.office }}, {{ user.agency }}
+    </div>
+    <div>
+      <a href="https://github.com/{{ username }}">@{{ username }}</a>
+    </div>
+    <div>
+      {% assign emoji = user.emoji | replace:'+','--' %}
+      <i class="em em-{{ emoji }}"></i>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
