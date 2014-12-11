@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -58,7 +61,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 
-Hi there! Great job on pulling back the curtain. 
+Hi there! Great job on pulling back the curtain.
 We're always looking for curious people with diverse skill-sets. Let's talk at 18f@gsa.gov
 
 -->
@@ -66,6 +69,7 @@ We're always looking for curious people with diverse skill-sets. Let's talk at 1
     <link href="styles/bootstrap-3.1.1.min.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Raleway:400,700|Open+Sans:300,600' rel='stylesheet' type='text/css'>
     <link href="styles/18f.min.css" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <!-- <link href="styles/fonts.css" rel="stylesheet"> -->
     <!-- <link href="styles/18f.css" rel="stylesheet"> -->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -87,6 +91,26 @@ We're always looking for curious people with diverse skill-sets. Let's talk at 1
         <p>This is a second paragraph, which should also be replaced.</p>
         <p>This is a third paragraph, which should also be
     replaced.</p>
+        <ul>
+          {% for user_hash in site.data.users %}
+            {% assign username = user_hash[0] %}
+            {% assign user = user_hash[1] %}
+
+            <li>
+              <div>{{ user.name }}</div>
+              <div>
+                {{ user.office }}, {{ user.agency }}
+              </div>
+              <div>
+                <a href="https://github.com/{{ username }}">@{{ username }}</a>
+              </div>
+              <div>
+                {% assign emoji = user.emoji | replace:'+','--' %}
+                <i class="em em-{{ emoji }}"></i>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
     <div class="row">
