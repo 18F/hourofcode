@@ -1,7 +1,3 @@
-# 18F & GSA Hour of Code
-
-12:00pm - 1:00pm at GSA Headquarters at 1800 F St. NW Room 1153
-
 As part of Computer Science Education Week, the “Hour of Code” initiative is helping millions of people of all ages around the world try computer programming for the first time. Even President Obama participated earlier this week.
 
 All are welcome; no experience is required! Just bring a laptop (if you have one).
