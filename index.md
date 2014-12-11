@@ -8,7 +8,7 @@ All are welcome; no experience is required! Just bring a laptop (if you have one
 
 ## Getting Started
 
-Practice writing JavaScript with [this coding game](http://hourofcode.com/code) or use [this tutorial to write a program](http://www.codecademy.com/goals/hour-of-code) that will animate your name.
+Practice writing JavaScript with [this coding game](http://hourofcode.com/code). Or use [this tutorial to write a program](http://www.codecademy.com/goals/hour-of-code) that will animate your name. Or get started on an [intro to HTML](http://www.codecademy.com/courses/web-beginner-en-HZA3b/0/1).
 
 ## Bonus Round!
 
