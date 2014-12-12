@@ -12,6 +12,6 @@ Practice writing JavaScript with [this coding game](http://hourofcode.com/code).
 
 ## Bonus Round!
 
-Add your name to the site! Start by creating an account on [Github](https://github.com). Then check out the instructions [here](addyourname.html).
+Add your name to the site! Check out the instructions [here](addyourname.html).
 
 {% include coders.html %}
