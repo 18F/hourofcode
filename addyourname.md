@@ -4,7 +4,7 @@ layout: default
 
 ## How to add your name to the site
 
-1. If you don' have one already, create a Gitt Start by [creating a Github account](https://github.com). 
+1. If you don't have one already, start by [creating a Github account](https://github.com). 
 1. Visit the users list page [here](https://github.com/18F/hourofcode/tree/gh-pages/_data/users).
 1. Click on the blue `+` sign next to the header `hourofcode/_data/users/+`
 1. In the "Name your file..." box, add your username and then `.yml`, for example: `obama.yml`
