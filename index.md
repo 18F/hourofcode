@@ -6,6 +6,6 @@ Github trainees: We'll use this page to document your successful Pull Requests a
 
 ## Instructions to add yourself
 
-Click[ here](addyourname.html) for the instructions!
+Click [here](addyourname.html) for the instructions!
 
 {% include coders.html %}
