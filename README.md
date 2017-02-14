@@ -1,4 +1,4 @@
-# DEPRECIATED
+# RETIRED
 
 This was the GitHub repository for Hour of Code, a site that enabled new users of Github to practice editing a Github repository.
 
