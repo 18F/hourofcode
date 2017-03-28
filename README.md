@@ -7,3 +7,7 @@ You may see this repository outside of the [18F organization on Github](https://
 # Past Use
 
 This was previously a repo for the microsite for [18F's Hour of Code](http://www.eventbrite.com/e/18f-hour-of-code-tickets-14902141707), which featured the same activity (among others).
+
+## Test Pull Requests
+
+If you are visiting because of the [GitHub for Beginners webinar](https://www.youtube.com/watch?v=uNa9GOtM6NE), please feel free to make Pull Requests below this text!
